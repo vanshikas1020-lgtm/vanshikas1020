@@ -5,40 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Vanshika | ML & AI Learner</title>
+    <title>Vanshika | Portfolio</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <h2>Vanshika</h2>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
 
-        <div>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+            <div class="logo">
+                Vanshika<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
 
 
     <!-- HOME -->
     <section id="home">
 
-        <h1>Hi, I'm Vanshika 👋</h1>
+        <div class="home-content">
 
-        <h2>Diploma in Computer Engineering</h2>
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
 
-        <p>
-            ML & AI Learner | Python Enthusiast | Web Development
-        </p>
+            <h1>
+                Hi, I'm <span>Vanshika</span> 👋
+            </h1>
 
-        <button>View My Projects</button>
+            <h2>Diploma in Computer Engineering</h2>
+
+            <p class="home-text">
+                ML & AI Learner | Web Development Enthusiast
+            </p>
+
+            <p class="intro">
+                I love learning technology, creating websites and exploring
+                Machine Learning & Artificial Intelligence.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="floating-shape shape-one"></div>
+        <div class="floating-shape shape-two"></div>
 
     </section>
 
@@ -46,18 +86,51 @@
     <!-- ABOUT -->
     <section id="about">
 
-        <h2>About Me</h2>
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
 
-        <p>
-            I have completed my Diploma in Computer Engineering
-            and I am currently learning Machine Learning and
-            Artificial Intelligence at Alpha IT.
-        </p>
+        <div class="about-container">
 
-        <p>
-            I am interested in Python, Machine Learning,
-            Data Analysis and Web Development.
-        </p>
+            <div class="about-card">
+                <div class="about-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I have completed my Diploma in Computer Engineering.
+                    I am currently learning Machine Learning and Artificial
+                    Intelligence at Alpha IT.
+                </p>
+
+                <p>
+                    I am interested in Web Development, Python, Data Analysis,
+                    Machine Learning and building useful projects.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <h3>What I Do</h3>
+
+                <p>
+                    I work with HTML, CSS, JavaScript, Python, NumPy,
+                    Pandas and Machine Learning concepts.
+                </p>
+
+                <p>
+                    I enjoy turning ideas into simple, clean and
+                    user-friendly projects.
+                </p>
+            </div>
+
+        </div>
 
     </section>
 
@@ -65,26 +138,61 @@
     <!-- SKILLS -->
     <section id="skills">
 
-        <h2>My Skills</h2>
-
-        <div>
-            <h3>Programming</h3>
-            <p>Python • JavaScript • PHP</p>
+        <div class="section-title">
+            <p>MY TECHNICAL KNOWLEDGE</p>
+            <h2>My <span>Skills</span></h2>
         </div>
 
-        <div>
-            <h3>Machine Learning</h3>
-            <p>Linear Regression • Logistic Regression • KNN • Decision Tree</p>
-        </div>
+        <div class="skills-container">
 
-        <div>
-            <h3>Data Analysis</h3>
-            <p>NumPy • Pandas • Matplotlib</p>
-        </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
 
-        <div>
-            <h3>Web Development</h3>
-            <p>HTML • CSS • MySQL</p>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Web Designing</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Web Interactivity</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>MySQL</h3>
+                <p>Database</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>ML Concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h3>Pandas</h3>
+                <p>Data Analysis</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-calculator"></i>
+                <h3>NumPy</h3>
+                <p>Data Processing</p>
+            </div>
+
         </div>
 
     </section>
@@ -93,20 +201,67 @@
     <!-- PROJECTS -->
     <section id="projects">
 
-        <h2>My Projects</h2>
+        <div class="section-title">
+            <p>MY RECENT WORK</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
 
-        <div>
+        <div class="projects-container">
 
-            <h3>🏠 Centralized ABVGIET Hostel Management System</h3>
+            <div class="project-card">
 
-            <p>
-                A web-based hostel management system designed
-                to simplify and centralize hostel-related activities.
-            </p>
+                <div class="project-icon">
+                    <i class="fa-solid fa-building"></i>
+                </div>
 
-            <p>
-                HTML • CSS • PHP • MySQL • JavaScript
-            </p>
+                <div class="project-content">
+
+                    <h3>Centralized Hostel Management System</h3>
+
+                    <p>
+                        A centralized hostel management system designed
+                        to manage students, rooms, notices, complaints,
+                        leaves and reports.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>Machine Learning Projects</h3>
+
+                    <p>
+                        Practicing Machine Learning algorithms such as
+                        Linear Regression, Logistic Regression, KNN
+                        and Decision Tree.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>ML</span>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -116,30 +271,74 @@
     <!-- EDUCATION -->
     <section id="education">
 
-        <h2>Education</h2>
+        <div class="section-title">
+            <p>MY ACADEMIC JOURNEY</p>
+            <h2>Education & <span>Training</span></h2>
+        </div>
 
-        <h3>Diploma in Computer Engineering</h3>
-        <p>Polytechnic</p>
+        <div class="timeline">
 
-        <p>12th: 73%</p>
-        <p>10th: 88.86%</p>
+            <div class="timeline-item">
 
-    </section>
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+                    <span>2025 - 2026</span>
+
+                    <h3>12th</h3>
+
+                    <p>
+                        SOS 12th, Model Public School, Pangna
+                    </p>
+
+                    <strong>73%</strong>
+                </div>
+
+            </div>
 
 
-    <!-- TRAINING -->
-    <section id="training">
+            <div class="timeline-item">
 
-        <h2>Training</h2>
+                <div class="timeline-dot"></div>
 
-        <h3>Machine Learning & Artificial Intelligence</h3>
+                <div class="timeline-content">
 
-        <p>Alpha IT</p>
+                    <span>Diploma</span>
 
-        <p>
-            Currently learning Python, NumPy, Pandas,
-            Matplotlib, Machine Learning and AI.
-        </p>
+                    <h3>Diploma in Computer Engineering</h3>
+
+                    <p>
+                        Completed Polytechnic Diploma in
+                        Computer Engineering.
+                    </p>
+
+                    <strong>CGPA: 6.60</strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>Current Training</span>
+
+                    <h3>ML & AI Training</h3>
+
+                    <p>
+                        Currently learning Machine Learning and
+                        Artificial Intelligence at Alpha IT.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
@@ -147,23 +346,63 @@
     <!-- CONTACT -->
     <section id="contact">
 
-        <h2>Let's Connect 📫</h2>
+        <div class="section-title">
+            <p>LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
 
-        <p>Email: xyz@gmail.com</p>
+        <div class="contact-container">
 
-        <p>LinkedIn: http://www.linkedin.com/in/vanshika-sharma-3121323b0</p>
+            <div class="contact-card">
 
-        <p>GitHub: vanshikas1020-lgtm</p>
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>your-email@example.com</p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <p>github.com/yourusername</p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <p>linkedin.com/in/yourusername</p>
+
+            </div>
+
+        </div>
 
     </section>
 
 
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 Vanshika. All Rights Reserved.</p>
+
+        <p>
+            © 2026 Vanshika. Made with 🤍 & code.
+        </p>
+
     </footer>
 
 
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
+
 </html>
