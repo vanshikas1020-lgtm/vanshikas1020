@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: white;
+    background: #F8F5FF;
+    color: #C9B8F4;
     line-height: 1.6;
 }
 
@@ -25,21 +25,21 @@ nav {
 
     padding: 20px 8%;
 
-    background: #111827;
+    background: #F3EEFF;
 }
 
 nav h2 {
-    color: #38bdf8;
+    color: #C9B8F4;
 }
 
 nav a {
-    color: white;
+    color: #5B4B73;
     text-decoration: none;
     margin-left: 25px;
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #9B7EDE;
 }
 
 
@@ -48,10 +48,12 @@ nav a:hover {
 section {
     padding: 80px 8%;
     min-height: 60vh;
+    background-color: #F8F5FF;
+    color: #403A4A;
 }
 
 section h2 {
-    color: #38bdf8;
+    color: #8E72C7;
     margin-bottom: 25px;
 }
 
@@ -61,15 +63,18 @@ section h2 {
 #home {
     text-align: center;
     padding-top: 120px;
+     background-color: #F8F5FF;
+    color: #403A4A;
 }
 
 #home h1 {
     font-size: 50px;
     margin-bottom: 15px;
+    color: #6F5A91;
 }
 
 #home h2 {
-    color: #38bdf8;
+    color: #9B7ED8;
 }
 
 
@@ -82,8 +87,8 @@ button {
     border: none;
     border-radius: 25px;
 
-    background: #38bdf8;
-    color: #0f172a;
+    background: #9B7ED8;
+    color: #FFFFFF;
 
     font-weight: bold;
     cursor: pointer;
@@ -91,16 +96,18 @@ button {
 
 button:hover {
     transform: scale(1.05);
+    background: #7E62B8
 }
 
 
 /* SKILLS */
 
 #skills div {
-    background: #1e293b;
+    background: #FFFFFF;
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(142, 114, 199, 0.12);
 }
 
 
