@@ -13,8 +13,7 @@ I am interested in Python, Machine Learning, Data Analysis, Web Development, and
 - Interested in Python
 - Interested in Web Development
 - I enjoy building practical projects
-- Hobby: Chess
-- Hobby: Crochet
+- Hobby: Chess and Crochet
 
 ## 🛠️ Skills
 
