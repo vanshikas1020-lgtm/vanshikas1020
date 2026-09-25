@@ -1,6 +1,6 @@
 # Hi, I'm Vanshika 👋
 
-### 💻 Computer Engineering Diploma Holder | 🤖 ML & AI Learner
+### 💻 Computer Engineering Diploma Holder | ML & AI Learner
 
 I have completed my Diploma in Computer Engineering and I am currently learning Machine Learning and Artificial Intelligence at Alpha IT.
 
@@ -8,13 +8,13 @@ I am interested in Python, Machine Learning, Data Analysis, Web Development, and
 
 ## 👩‍💻 About Me
 
-- 🎓 Diploma in Computer Engineering
-- 🤖 Currently learning Machine Learning & AI
-- 🐍 Interested in Python
-- 🌐 Interested in Web Development
-- 💡 I enjoy building practical projects
-- ♟️ Hobby: Chess
-- 🧶 Hobby: Crochet
+- Diploma in Computer Engineering
+- Currently learning Machine Learning & AI
+- Interested in Python
+- Interested in Web Development
+- I enjoy building practical projects
+- Hobby: Chess
+- Hobby: Crochet
 
 ## 🛠️ Skills
 
@@ -71,7 +71,7 @@ HTML • CSS • PHP • MySQL • JavaScript
 
 ## 📫 Connect With Me
 
-📧 Email: vanshikas1020@gmail.com
+📧 Email: xyz@gmail.com
 
 💼 LinkedIn: http://www.linkedin.com/in/vanshika-sharma-3121323b0
 
